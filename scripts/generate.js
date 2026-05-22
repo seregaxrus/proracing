@@ -99,7 +99,7 @@ const renderCategories = (currentService) =>
         (key === "paint" && normalized.includes("покра")) ||
         (key === "extra" && normalized.includes("хран"));
       return `
-        <article class="service-card${active ? " is-active" : ""}">
+        <article class="service-card service-${key}${active ? " is-active" : ""}">
           <h3>${esc(name)}</h3>
           <p>${esc(text)}</p>
         </article>`;
