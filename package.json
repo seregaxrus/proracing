@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "serve": "python3 -m http.server 4173"
+  }
+}
